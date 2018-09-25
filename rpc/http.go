@@ -32,7 +32,8 @@ import (
 )
 
 const (
-	maxHTTPRequestContentLength = 1024 * 128
+//	maxHTTPRequestContentLength = 1024 * 128 //original
+	maxHTTPRequestContentLength = 1024 * 1024 //inovickis
 )
 
 var nullAddr, _ = net.ResolveTCPAddr("tcp", "127.0.0.1:0")
